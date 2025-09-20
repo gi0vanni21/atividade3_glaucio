@@ -9,11 +9,11 @@ for (let i = 1; i <= 15; i++) {
   generos.push(genero);
 }
 
-// Maior e menor altura
+
 let maiorAltura = Math.max(...alturas);
 let menorAltura = Math.min(...alturas);
 
-// Média de altura dos homens
+
 let somaMasculino = 0;
 let qtdMasculino = 0;
 
@@ -26,10 +26,10 @@ for (let i = 0; i < alturas.length; i++) {
 
 let mediaMasculino = qtdMasculino > 0 ? (somaMasculino / qtdMasculino) : 0;
 
-// Número de mulheres
+
 let qtdFeminino = generos.filter(g => g === "feminino").length;
 
-// Exibir resultados
+
 alert(`=== Resultados ===
     
 Maior altura do grupo: ${maiorAltura.toFixed(2)} m
